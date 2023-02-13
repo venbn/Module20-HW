@@ -54,10 +54,15 @@ To automate the creation of joint savings accounts, I have created a Solidity sm
 
 #### Step 2: Compiled and Deploy Your Contract in the JavaScript VM
 
-1. Successfully compiled my smart contract.
+1. Successfully compiled my smart contract. Below is the video showing succefull deployment of the contract..
+
+https://user-images.githubusercontent.com/112692272/218420892-e71fa3b9-7640-4ed7-bd31-7be89ca9d689.mp4
 
 
 2. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
+
+
+https://user-images.githubusercontent.com/112692272/218421077-bfb88166-a68d-4721-9f75-9a7e56279fbe.mp4
 
 
 #### Step 3: Interact with Your Deployed Smart Contract
@@ -68,21 +73,33 @@ A video has been recorded for each test performed and stored in the folder named
 
 To interact with the deployed smart contract, completed the following steps:
 
-1. Tested the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
+1. Tested the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract :
 
-    * Transaction 1: Send 1 ether as wei.
+    * Transaction 1: Send 1 ether as wei.   
+
+      https://user-images.githubusercontent.com/112692272/218421267-cead76aa-7589-423f-87b9-254bc812e5d2.mp4
+
+    * Transaction 2: Additionally Send 10 ether as wei.
+
+      https://user-images.githubusercontent.com/112692272/218421413-f4abf68e-db9b-444a-9783-a2c389685075.mp4
+
+    * Transaction 3: Additionally Send 5 ether.
+
+      https://user-images.githubusercontent.com/112692272/218421560-a394768d-7322-4826-82e2-3b1f14739d9b.mp4
 
 
-    * Transaction 2: Send 10 ether as wei.
-
-
-    * Transaction 3: Send 5 ether.
-
+After the above 3 transactions, you must be able to see total of 16 Ether added to the contract.
 
 3. Once the funds are successfully deposited funds into the contract, tested the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, used the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, used the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
 
 Below are the videos showing the withdraw funcitonality :
 
     * Withdraw 5 Ether to Account 1 and show the lastToWithdraw and lastWithdrawAmount including verifying the contractBalance
+      
 
     * Withdraw 10 Ether to Account 2 and show the lastToWithdraw and lastWithdrawAmount including verifying the contractBalance
+    
+      
+
+https://user-images.githubusercontent.com/112692272/218421801-b4a1a25a-41fc-46d2-83c6-5fd8685b509d.mp4
+
